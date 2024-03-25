@@ -1,0 +1,16 @@
+public class PlayerContext
+{
+    public Room room; = room 
+    public PlayerSprite player; = sprite
+    internal bool noDoor = false; = bool
+    internal int camX; = int
+    internal int camY; = int
+    internal readonly KeyBind[] keysdown = new KeyBind[5]; = new class
+    internal int lastKeyDown; = int
+    internal Bitmap buffer; = Bitmap
+    internal Graphics g; = Graphics
+    internal int totalGoldPicked; = int
+    internal readonly int index; = int
+    internal string name; = string
+    internal float runTime = 3; = float
+}
